@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body {
+    background-color:hsl(233, 47%, 7%) ;
+    font-size: 15px;
+    
+}
+.leftright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 380px;
+}
+.left {
+    background-color:hsl(244, 38%, 16%) ;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-top: 30px;
+    
+}
+.left p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 40px;
+    font-size: 10px;
+    font-family: "Lexend Deca", sans-serif;
+}
+.get h1 {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: "inter", sans-serif;
+}
+span {
+    color: hsl(277, 64%, 61%) ;
+}
+.get p {
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+.numb {
+    display: flex;
+    gap 60px
+}
+.numb h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+.numb p {
+    color: hsl(0, 0%, 100%);
+    font-size: 7px;
+}
+.ten {
+    width: 100%;
+}.three {
+    width: 100%;
+}.two {
+    width: 100%;
+}
+.right {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:hsl(277, 64%, 61%) ;
+    background-blend-mode: overlay;
+    background-image:url("/asset/picture/image-header-desktop.jpg");
+    padding: 125px 0;
+}
